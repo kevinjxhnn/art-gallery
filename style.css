@@ -10,9 +10,10 @@
 
 
 .button-loc {
+  text-align: right;
   position: absolute;
   top: 0;
-  left: 10rem;
+  left: 10%;
   font-family: Big Shoulders Display;
   font-style: normal;
   font-weight: 800;
@@ -23,18 +24,17 @@
   height: 4rem;
   background-color: #151515;
   color: white;
-  padding: 10px 0px 10px 20px;
-  text-align: left;
+  padding: 10px 20px 10px 0px;
   cursor: pointer;
-  background-image: url("./images/box-arrow.svg");
+  background-image: url("./images/box-arrow-left.svg");
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: left center;
   background-size: fill;
   background-origin: content-box;
 }
 
 .button-loc:hover {
-  background-image: url("./images/box-arrow-black.svg");
+  background-image: url("./images/box-arrow-left-diff.svg");
   background-color: #d5966c;
 }
 
