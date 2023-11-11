@@ -25,7 +25,6 @@
     <title>Our Location</title>
   </head>
   <body>
-    
     <div class="location-container">
       <div class="bitmap-container">
         <img class="pointer" src="./images/Group 6.png" alt="pointer" />
@@ -75,7 +74,9 @@
             </li>
             <li>
               <a href="#"
-                ><img src="./images/icon-instagram-dark.svg" alt="instagram icon"
+                ><img
+                  src="./images/icon-instagram-dark.svg"
+                  alt="instagram icon"
               /></a>
             </li>
           </ul>
@@ -83,6 +84,11 @@
       </footer>
       <button id="home" class="button-loc">BACK TO HOME</button>
     </div>
-    <script src="./app.js"></script>
+    <script>
+      const homeButton = document.querySelector("#home");
+      homeButton.addEventListener("click", function () {
+        window.location.href = "index.html";
+      });
+    </script>
   </body>
 </html>
